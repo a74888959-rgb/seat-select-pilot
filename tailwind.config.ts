@@ -47,6 +47,18 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Airline specific colors
+        airline: {
+          blue: "hsl(var(--airline-blue))",
+          "blue-light": "hsl(var(--airline-blue-light))",
+          gold: "hsl(var(--airline-gold))",
+        },
+        seat: {
+          available: "hsl(var(--seat-available))",
+          occupied: "hsl(var(--seat-occupied))",
+          selected: "hsl(var(--seat-selected))",
+          premium: "hsl(var(--seat-premium))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
